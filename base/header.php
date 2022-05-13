@@ -3,8 +3,23 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <title>Yayasan Dompet Yatim Piatu Amanah</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <meta content="Sebuah Lembaga yang bergerak dibidang sosial. Yayasan Dompet Yatim Piatu Amanah yang bergerak
+                    membina anak anak yatim, memberikan pendidikan formal dan non formal serta membantu mensejahterkan
+                    kehidupan dan kebutuhan anak anak yatim piatu baik dari segi jasmani dan rohani."
+        name="description">
+    <meta content="Dompet Yatim Piatu Amanah" name="keywords">
+    <meta property="og:url" content="http://dompetyatimpiatuamanah.com/" />
+    <meta property="og:type" content="Dompet Yatim Official" />
+    <meta property="og:title" content="Dompet Yatim Piatu Amanah - Yayasan Sosial Yatim Piatu" />
+    <meta property="og:description" content='Sebuah Lembaga yang bergerak dibidang sosial. Yayasan Dompet Yatim Piatu Amanah yang bergerak
+                    membina anak anak yatim, memberikan pendidikan formal dan non formal serta membantu mensejahterkan
+                    kehidupan dan kebutuhan anak anak yatim piatu baik dari segi jasmani dan rohani.'>
+    <meta property="og:image" content='http://dompetyatimpiatuamanah.com/assets/img/about.JPG' />
+    <meta property="og:image:type" content="image/jpg">
+
+    <!-- Size of image. Any size up to 300. Anything above 300px will not work in WhatsApp -->
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
 
     <!-- Favicons -->
     <link href="assets/img/logo/logo.png" rel="icon">
