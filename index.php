@@ -17,6 +17,8 @@
 
         <?php include 'base/html-sectionLegalitas.php'; ?>
 
+        <?php include 'base/html-sectionDonasi.php'; ?>
+
         <?php include 'base/html-sectionProgram.php'; ?>
 
         <?php include 'base/html-sectionDokumentasi.php'; ?>

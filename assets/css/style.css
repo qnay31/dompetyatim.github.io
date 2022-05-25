@@ -898,6 +898,21 @@ section {
   top: 10px;
 }
 
+.program .testimonial-item .image-title,
+.program .testimonial-item .button-donasi {
+  display: flex;
+  justify-content: center;
+}
+
+.program .testimonial-item .button-donasi {
+  padding-top: 1.5em;
+}
+
+.program .testimonial-item .image-title img {
+  width: 100%;
+  max-width: 10em;
+}
+
 .program .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
