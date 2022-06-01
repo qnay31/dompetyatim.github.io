@@ -45,19 +45,24 @@
                     </div>
                 </div><!-- End dokumentasi item -->
 
-                <!-- <div class="swiper-slide">
+                <div class="swiper-slide">
                     <div class="testimonial-item">
                         <p>
+                            <span class="image-title">
+                                <img src="assets/img/icon/sharinghappiness.jpg" alt="" srcset="">
+                            </span>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Yayasan Dompet Yatim Piatu Amanah sangat amat serius dalam bidang pendidikan untuk
-                            meningkatkan sumber daya manusia sejak dini. dengan mengadakan private secara intensif dan
-                            pondok pesantren
+                            Mari sisihkan rezekimu untuk kebutuhan sehari-hari anak-anak yatim
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <span class="button-donasi">
+                                <a class="btn btn-success" href="https://sharinghappiness.org/uangsaku"
+                                    target="blank_">Donasi
+                                    Sekarang</a>
+                            </span>
                         </p>
-                        <img src="assets/img/icon/sharinghappiness.jpg" class="testimonial-img" alt="">
-                        <h3>Pendidikan Yatim</h3>
+                        <img src="assets/img/donasi/kitabisa.jpg" class="testimonial-img" alt="">
                     </div>
-                </div> -->
+                </div>
                 <!-- End dokumentasi item -->
 
             </div>
