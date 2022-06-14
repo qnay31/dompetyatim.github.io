@@ -24,6 +24,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#legalilas">Legalitas</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#program">Program</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#dokumentasi">Dokumentasi</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#kegiatan">Kegiatan</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
                     </ul>
                 </div>

@@ -1,3 +1,7 @@
+<?php
+    error_reporting(0)
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,6 +26,8 @@
         <?php include 'base/html-sectionProgram.php'; ?>
 
         <?php include 'base/html-sectionDokumentasi.php'; ?>
+
+        <?php include 'base/html-sectionKegiatan.php'; ?>
 
         <?php include 'base/html-sectionContact.php'; ?>
 

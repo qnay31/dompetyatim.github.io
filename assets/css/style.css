@@ -925,12 +925,14 @@ section {
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
-.program .swiper-pagination {
+.program .swiper-pagination,
+.kegiatan .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.program .swiper-pagination .swiper-pagination-bullet {
+.program .swiper-pagination .swiper-pagination-bullet,
+.kegiatan .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -938,12 +940,15 @@ section {
   border: 1px solid #098249;
 }
 
-.program .swiper-pagination .swiper-pagination-bullet-active {
+.program .swiper-pagination .swiper-pagination-bullet-active,
+.kegiatan .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #098249;
 }
 
 @media (max-width: 767px) {
-  .program {
+
+  .program,
+  .kegiatan {
     margin: 30px 10px;
   }
 }
@@ -1007,6 +1012,25 @@ section {
   transition: all ease-in-out 0.3s;
   z-index: 2;
   opacity: 0;
+}
+
+.kegiatan .portfolio-wrap::before {
+  content: "";
+  background: rgba(100, 100, 100, 0.83);
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  bottom: 30px;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+
+.kegiatan .portfolio-info a {
+  text-decoration: underline;
+  color: #fff;
+
 }
 
 .dokumentasi .portfolio-wrap .portfolio-info {
@@ -1136,6 +1160,7 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
