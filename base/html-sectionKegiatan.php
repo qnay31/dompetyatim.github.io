@@ -80,6 +80,24 @@
                     </div>
                     <!-- End dokumentasi item -->
 
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="portfolio-wrap">
+                                <img src="assets/img/kegiatan/santunan/cover-juni.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Santunan 26 Juni 2022</h4>
+                                    <p><a href="kegiatan.php?idPage=santunanJuni">Lihat selengkapnya</a> <i
+                                            class="bx bxs-hand-down"></i></p>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="kegiatan.php?idPage=santunanJuni" title="Lihat selengkapnya"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End dokumentasi item -->
+
                 </div>
                 <div class="swiper-pagination"></div>
             </div>

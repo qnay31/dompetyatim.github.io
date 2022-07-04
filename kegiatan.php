@@ -6,6 +6,9 @@
     } elseif ($_GET["idPage"] == "santunanApril") {
         $judul = "santunan bulanan 22 april 2022";
 
+    } elseif ($_GET["idPage"] == "santunanJuni") {
+        $judul = "santunan bulanan 26 juni 2022";
+
     } elseif ($_GET["idPage"] == "ceriaYatim") {
         $judul = "ceria bersama yatim";
     
@@ -104,6 +107,27 @@
                                     <img src="assets/img/kegiatan/ceria/ceria-4.jpg" alt="">
                                 </div>
 
+                                <?php } elseif ($_GET["idPage"] == "santunanJuni") { ?>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/juni-1.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/juni-2.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/juni-3.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/juni-4.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/juni-5.jpg" alt="">
+                                </div>
+
                                 <?php } else { ?>
                                 <div class="swiper-slide">
                                     <img src="assets/img/kegiatan/santunan/mei-1.JPG" alt="">
@@ -145,6 +169,11 @@
                                 <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
                                 <li><strong>Tgl update</strong>: 22 April 2022, 08:00 WIB</li>
 
+                                <?php } elseif ($_GET["idPage"] == "santunanJuni") { ?>
+                                <li><strong>Program</strong>: Santunan Yatim</li>
+                                <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
+                                <li><strong>Tgl update</strong>: 2 Juli 2022, 08:00 WIB</li>
+
                                 <?php } elseif ($_GET["idPage"] == "ceriaYatim") { ?>
                                 <li><strong>Program</strong>: Ceria Yatim</li>
                                 <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
@@ -172,6 +201,21 @@
                                 <br><br>
 
                                 Pada tanggal 22 April 2022 yayasan kami mengadakan santunan rutin bulanan untuk anak
+                                anak
+                                yatim di Yayasan Dompet Yatim Piatu Amanah. <br>
+                                Alhamdulillah kegiatan rutin yang kami adakan ini berjalan dengan lancar hingga selesai.
+                                Kami segenap pengurus Yayasan Dompet Yatim Piatu Amanah mengucapkan ribuan terimakasih
+                                kepada para donatur dermawan yang telah memberikan kami dukungan dan bantuannya dengan
+                                ikhlas, semoga kebaikan dan rezekinya para donatur Allah lipatgandakan berkali-kali
+                                lipat dan menjadi tabungan akhirat hingga Yaumil Qiyamah Aamiin Yaa Rabbal Alamin
+                            </p>
+
+                            <?php } elseif ($_GET["idPage"] == "santunanJuni") { ?>
+                            <p>
+                                Assalamu'alaikum Warahmatullah Wabarakatuh, salam santun serta salam silaturahmi.
+                                <br><br>
+
+                                Pada tanggal 26 Juni 2022 yayasan kami mengadakan santunan rutin bulanan untuk anak
                                 anak
                                 yatim di Yayasan Dompet Yatim Piatu Amanah. <br>
                                 Alhamdulillah kegiatan rutin yang kami adakan ini berjalan dengan lancar hingga selesai.
