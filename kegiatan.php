@@ -11,6 +11,9 @@
 
     } elseif ($_GET["idPage"] == "ceriaYatim") {
         $judul = "ceria bersama yatim";
+
+    } elseif ($_GET["idPage"] == "qurban") {
+        $judul = "qurban untuk yatim";
     
     } else {
         $judul = "santunan bulanan 27 mei 2022";
@@ -128,6 +131,47 @@
                                     <img src="assets/img/kegiatan/santunan/juni-5.jpg" alt="">
                                 </div>
 
+                                <?php } elseif ($_GET["idPage"] == "qurban") { ?>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-1.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-2.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-3.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-4.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-5.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-6.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-7.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-8.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-9.jpg" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/qurban/qurban-10.jpg" alt="">
+                                </div>
+
                                 <?php } else { ?>
                                 <div class="swiper-slide">
                                     <img src="assets/img/kegiatan/santunan/mei-1.JPG" alt="">
@@ -178,6 +222,11 @@
                                 <li><strong>Program</strong>: Ceria Yatim</li>
                                 <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
                                 <li><strong>Tgl update</strong>: 22 Januari 2022, 13: 45 WIB</li>
+
+                                <?php } elseif ($_GET["idPage"] == "qurban") { ?>
+                                <li><strong>Program</strong>: Qurban Untuk Yatim</li>
+                                <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
+                                <li><strong>Tgl update</strong>: 12 Juli 2022, 09: 45 WIB</li>
 
                                 <?php } else { ?>
                                 <li><strong>Program</strong>: Santunan Yatim</li>
@@ -232,6 +281,16 @@
 
                                 Alhamdulillah sahabat yatim kegiatan program Ceria Yatim telah selesai kami laksanakan,
                                 berikut adalah dokumentasi kegiatan tersebut.
+                            </p>
+
+                            <?php } elseif ($_GET["idPage"] == "qurban") { ?>
+                            <p>
+                                Assalamu'alaikum Warahmatullahi Wabarakatu Sahabat Baik <br><br>
+                                Kami ingin mengucapkan terimakasih banyak kepada sahabat baik yang telah membantu
+                                mendo'akan dan menyisihkan sebagian rezekinya sehingga kegiatan Qurban untuk anak-anak
+                                yatim pada 11 Juni 2022 dapat berjalan dengan lancar<br><br>
+                                Semoga Allah SWT membalas kebaikan sahabat baik dengan segala nikmatnya. Aamiin aamiin
+                                yarobbal'aalamiin
                             </p>
 
                             <?php } else { ?>
