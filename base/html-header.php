@@ -13,7 +13,7 @@
             <nav id="navbar" class="navbar">
                 <?php if ($_GET["idPage"] == "") { ?>
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto active" href="#home">Beranda</a></li>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="#legalilas">Legalitas</a></li>
                     <li><a class="nav-link scrollto" href="#program">Program</a></li>
@@ -24,7 +24,7 @@
 
                 <?php } else { ?>
                 <ul>
-                    <li><a class="nav-link scrollto" href="#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="#home">Beranda</a></li>
                     <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
                     <li><a class="nav-link scrollto" href="#legalilas">Legalitas</a></li>
                     <li><a class="nav-link scrollto" href="#program">Program</a></li>

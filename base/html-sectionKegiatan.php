@@ -14,6 +14,23 @@
                     <div class="swiper-slide">
                         <div class="testimonial-item">
                             <div class="portfolio-wrap">
+                                <img src="assets/img/kegiatan/santunan/cover-muharram.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Santunan 10 Muharam 1444 H</h4>
+                                    <p><a href="kegiatan.php?idPage=santunanMuharram">Lihat selengkapnya</a> <i
+                                            class="bx bxs-hand-down"></i></p>
+                                </div>
+                                <div class="portfolio-links">
+                                    <a href="kegiatan.php?idPage=santunanMuharram" title="Lihat selengkapnya"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <div class="portfolio-wrap">
                                 <img src="assets/img/kegiatan/qurban/cover-qurban.jpg" class="img-fluid" alt="">
                                 <div class="portfolio-info">
                                     <h4>Qurban Untuk Yatim</h4>

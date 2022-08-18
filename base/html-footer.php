@@ -19,7 +19,7 @@
                 <div class="col-lg-4 col-md-6 footer-links">
                     <h4>Menu Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#hero">Beranda</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#home">Beranda</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#legalilas">Legalitas</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#program">Program</a></li>

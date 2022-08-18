@@ -1,5 +1,5 @@
 <!-- ======= Hero Section ======= -->
-<section id="hero" class="d-flex align-items-center">
+<section id="home" class="d-flex align-items-center">
 
     <div class="container-fluid" data-aos="fade-up">
         <div class="row justify-content-center">

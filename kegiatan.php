@@ -12,6 +12,9 @@
     } elseif ($_GET["idPage"] == "ceriaYatim") {
         $judul = "ceria bersama yatim";
 
+    } elseif ($_GET["idPage"] == "santunanMuharram") {
+        $judul = "Santunan 10 Muharam 1444 H";
+
     } elseif ($_GET["idPage"] == "qurban") {
         $judul = "qurban untuk yatim";
     
@@ -131,6 +134,35 @@
                                     <img src="assets/img/kegiatan/santunan/juni-5.jpg" alt="">
                                 </div>
 
+                                <?php } elseif ($_GET["idPage"] == "santunanMuharram") { ?>
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-1.JPG" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-2.JPG" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-3.JPG" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-4.JPG" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-5.JPG" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-6.JPG" alt="">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img src="assets/img/kegiatan/santunan/muharram-7.JPG" alt="">
+                                </div>
+
                                 <?php } elseif ($_GET["idPage"] == "qurban") { ?>
                                 <div class="swiper-slide">
                                     <img src="assets/img/kegiatan/qurban/qurban-1.jpg" alt="">
@@ -218,6 +250,11 @@
                                 <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
                                 <li><strong>Tgl update</strong>: 2 Juli 2022, 08:00 WIB</li>
 
+                                <?php } elseif ($_GET["idPage"] == "santunanMuharram") { ?>
+                                <li><strong>Program</strong>: Santunan Yatim</li>
+                                <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
+                                <li><strong>Tgl update</strong>: 8 Agustus 2022, 08:00 WIB</li>
+
                                 <?php } elseif ($_GET["idPage"] == "ceriaYatim") { ?>
                                 <li><strong>Program</strong>: Ceria Yatim</li>
                                 <li><strong>Upload by</strong>: Yayasan Dompet Yatim Piatu Amanah</li>
@@ -257,6 +294,20 @@
                                 kepada para donatur dermawan yang telah memberikan kami dukungan dan bantuannya dengan
                                 ikhlas, semoga kebaikan dan rezekinya para donatur Allah lipatgandakan berkali-kali
                                 lipat dan menjadi tabungan akhirat hingga Yaumil Qiyamah Aamiin Yaa Rabbal Alamin
+                            </p>
+
+                            <?php } elseif ($_GET["idPage"] == "santunanMuharram") { ?>
+                            <p>
+                                Assalamu'alaikum Warahmatullah Wabarakatuh. . .
+                                <br><br>
+
+                                Apa kabar hari ini sahabat ? semoga senantiasa sehat selalu dan selalu dalam lindungan
+                                dan naungan Allah swt Aamiin. . .<br>
+                                Alhamdulillah sahabat telah terlaksana program santunan bulanan sekaligus memperingati
+                                10 Muharram atau Lebaran Anak Yatim 1444 H, dengan khidmat dan lancar hingga selesai.
+                                <br>
+                                <br>
+                                Berikut adalah dokumentasi acaranya :
                             </p>
 
                             <?php } elseif ($_GET["idPage"] == "santunanJuni") { ?>
